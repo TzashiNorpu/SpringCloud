@@ -1,0 +1,127 @@
+POST http://localhost:8001/payment/create
+Content-Type: application/json
+
+{
+  "serial":"18524669854"
+}
+
+<> 2020-09-03T120911.200.json
+
+###
+
+POST http://localhost:8001/payment/create
+Content-Type: application/json
+
+{
+  "serial":"18524669854"
+}
+
+<> 2020-09-03T120822.200.json
+
+###
+
+POST http://localhost:8001/payment/create
+Content-Type: application/json
+
+{
+  "serial":"14589542214"
+}
+
+###
+
+POST http://localhost:8001/payment/create
+Content-Type: application/json
+
+{
+  "serial":"14589542214"
+}
+
+<> 2020-09-03T114943.200.json
+
+###
+
+POST http://localhost:8001/payment/create
+Content-Type: application/json
+
+{
+  "serial":1235478
+}
+
+<> 2020-09-03T114854.200.json
+
+###
+
+POST http://localhost:8001/payment/create
+Content-Type: application/x-www-form-urlencoded
+
+serial="124587963"
+
+<> 2020-09-03T114731.415.json
+
+###
+
+GET http://localhost:8001/payment/get/1
+
+<> 2020-09-03T114137.500.json
+
+###
+
+GET http://localhost:8001/payment/get/1
+
+<> 2020-09-03T114042.500.json
+
+###
+
+GET http://localhost:8001/payment/get/1
+
+###
+
+GET http://localhost:8001/payment/get/1
+
+<> 2020-09-03T112210.500.json
+
+###
+
+GET http://localhost:8001/payment/get/{id}
+
+###
+
+POST http://localhost:8001/payment/create
+Content-Type: application/x-www-form-urlencoded
+
+serial="124587963"
+
+<> 2020-09-03T111714.415.json
+
+###
+
+POST http://localhost:80/api/item
+Content-Type: application/json
+
+{
+  "serial":"111245687"
+}
+
+###
+
+POST http://localhost:80/api/item
+Content-Type: application/json
+
+{
+  "serial":123456
+}
+
+###
+
+POST http://localhost:8001/payment/create
+
+<> 2020-09-03T111448.400.json
+
+###
+
+POST http://localhost:8001/payment/create?serial='10002456'
+
+<> 2020-09-03T111341.400.json
+
+###
+
