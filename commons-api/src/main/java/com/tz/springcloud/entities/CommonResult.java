@@ -1,4 +1,3 @@
-/*
 package com.tz.springcloud.entities;
 
 import lombok.AllArgsConstructor;
@@ -16,4 +15,3 @@ public class CommonResult<T> {
         this(code, message, null);
     }
 }
-*/

@@ -1,5 +1,5 @@
 /*
-package com.tz.springcloud.entities;
+package com.tz.order.springcloud.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

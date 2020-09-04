@@ -7,7 +7,7 @@
         insert into payment(serial)  values(#{serial});
     </insert>
 
-
+<!--实体bean抽到commons-api后会影响到mybatis-->
     <resultMap id="BaseResultMap11" type="com.tz.springcloud.entities.Payment">
         <id column="id" property="id" jdbcType="BIGINT"/>
         <id column="serial" property="serial" jdbcType="VARCHAR"/>
