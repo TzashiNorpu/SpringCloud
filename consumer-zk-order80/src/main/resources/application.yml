@@ -1,6 +1,6 @@
 server:
   port: 80
-debug: true
+#debug: true
 
 spring:
   application:
