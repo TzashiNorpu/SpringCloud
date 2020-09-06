@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14daef14-e15a-404b-b868-660edbe25b6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspacebak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspacebak.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-consul-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-consul-order80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockerCMD.md" beforeDir="false" afterPath="$PROJECT_DIR$/dockerCMD.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-consul-payment8006/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-consul-payment8006/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1h8pNuK7OvodG4NqJq3TJN8nRpX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderConsulMain80">
+    <configuration name="OrderConsulMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="customer-consul-order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tz.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tz.springcloud.OrderConsulMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="provider-consul-payment8006" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tz.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tz.springcloud.PaymentMain8006" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderConsulMain80" />
+        <item itemvalue="Spring Boot.PaymentMain8006" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14daef14-e15a-404b-b868-660edbe25b6b" name="Default Changelist" comment="" />
+      <created>1599402540632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599402540632</updated>
+      <workItem from="1599402554042" duration="2143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1599405393545">
+      <screen x="-1920" y="9" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1599405393545">
+      <screen x="-1920" y="9" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1599405393545">
+      <screen x="-1920" y="9" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1599405393545">
+      <screen x="-1920" y="9" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1599405393545">
+      <screen x="-1920" y="9" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1599405393545">
+      <screen x="-1920" y="9" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1599405393545">
+      <screen x="-1920" y="9" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1599405393545">
+      <screen x="-1920" y="9" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
+    <state x="-1297" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1599404948103">
+      <screen x="-1920" y="9" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599404948103" />
+  </component>
+</project>

@@ -11,6 +11,10 @@ spring:
       host: 101.200.210.117
       port: 8500
       discovery:
-        hostname: 172.21.80.91
         service-name: ${spring.application.name}
+        prefer-ip-address: true   # 表示注册时使用IP而不是hostname
+        enabled: true       # 启用服务发现
+        register: true      # 启用服务注册
+        deregister: true    # 表示停止时取消注册
+        register-health-check: false
 
