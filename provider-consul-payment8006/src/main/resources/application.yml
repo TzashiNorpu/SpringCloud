@@ -11,8 +11,11 @@ spring:
       host: 101.200.210.117
       port: 8500
       discovery:
-#        hostname: localhost
+#        hostname: 222.221.237.140
         service-name: ${spring.application.name}
+        prefer-ip-address: true
+#        prefer-agent-address: true
+#        ip-address: 222.221.237.140
 
 
 
