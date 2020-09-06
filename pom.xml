@@ -11,10 +11,12 @@
     <modules>
         <module>provider-payment8001</module>
         <module>provider-payment8002</module>
-        <module>consumer-order80</module>
         <module>commons-api</module>
         <module>eureka-server7001</module>
         <module>eureka-server7002</module>
+        <module>provider-payment8004</module>
+        <module>consumer-zk-order80</module>
+        <module>customer-eureka-order80</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
