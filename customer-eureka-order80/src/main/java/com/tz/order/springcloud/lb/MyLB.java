@@ -7,11 +7,6 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-*/
-/**
- * @auther zzyy
- * @create 2020-02-19 20:33
- *//*
 
 @Component
 public class MyLB implements LoadBalancer
