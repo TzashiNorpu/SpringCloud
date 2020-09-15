@@ -9,14 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="provider-consul-payment8006" />
         <module name="provider-zk-payment8004" />
-        <module name="customer-consul-order80" />
-        <module name="commons-api" />
+        <module name="eureka-server7001" />
+        <module name="provider-eureka-payment8002" />
         <module name="customer-eureka-order80" />
         <module name="provider-eureka-payment8001" />
         <module name="eureka-server7002" />
-        <module name="eureka-server7001" />
+        <module name="commons-api" />
         <module name="consumer-zk-order80" />
-        <module name="provider-eureka-payment8002" />
+        <module name="customer-consul-order80" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
