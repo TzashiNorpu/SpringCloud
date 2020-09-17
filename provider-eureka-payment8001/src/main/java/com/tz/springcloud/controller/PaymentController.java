@@ -11,6 +11,7 @@ import org.springframework.cloud.client.discovery.DiscoveryClient;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 
 @RestController
@@ -63,7 +64,7 @@ public class PaymentController {
 
         return this.discoveryClient;
     }
-/*
+
     @GetMapping(value = "/payment/lb")
     public String getPaymentLB() {
         return serverPort;
@@ -79,7 +80,7 @@ public class PaymentController {
         }
         return serverPort;
     }
-
+/*
     @GetMapping("/payment/zipkin")
     public String paymentZipkin() {
         return "hi ,i'am paymentzipkin server fall back，welcome to tz，O(∩_∩)O哈哈~";
