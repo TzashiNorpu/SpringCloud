@@ -8,19 +8,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="provider-consul-payment8006" />
+        <module name="config-client3355" />
         <module name="consumer-zk-order80" />
         <module name="consumer-openfeign-order80" />
-        <module name="consumer-consul-order80" />
+        <module name="config-client3366" />
+        <module name="consumer-eureka-order80" />
         <module name="eureka-server7002" />
         <module name="eureka-server7001" />
         <module name="provider-hystrix-payment8008" />
         <module name="consumer-hystrix-dashboard9001" />
-        <module name="consumer-eureka-order80" />
         <module name="consumer-openfeign-hystrix-order80" />
+        <module name="gateway-9527" />
         <module name="commons-api" />
         <module name="provider-eureka-payment8002" />
         <module name="provider-eureka-payment8001" />
+        <module name="consumer-consul-order80" />
         <module name="provider-zk-payment8004" />
+        <module name="config-center3344" />
       </profile>
     </annotationProcessing>
   </component>

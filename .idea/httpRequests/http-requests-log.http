@@ -1,3 +1,21 @@
+POST http://localhost:3355/actuator/refresh
+
+<> 2020-09-18T062235.200.json
+
+###
+
+POST http://localhost:3355/actuator/refresh
+
+<> 2020-09-18T062116.200.json
+
+###
+
+POST http://localhost:3355/actuator/refresh
+
+<> 2020-09-18T062019.200.json
+
+###
+
 POST http://localhost:8001/payment/create
 Content-Type: application/json
 
