@@ -1,3 +1,53 @@
+POST http://localhost:3344/actuator/bus-refresh
+
+###
+
+POST http://localhost:3344/actuator/bus/refresh
+
+<> 2020-09-19T011658.405.json
+
+###
+
+POST http://localhost:3344/actuator/refresh
+
+<> 2020-09-19T011638.405.json
+
+###
+
+POST http://localhost:3344/actuator/bus-refresh/{destination}
+
+###
+
+POST http://localhost:3344/actuator/bus-refresh
+
+###
+
+POST http://localhost:3344/actuator/bus-refresh
+
+###
+
+POST http://localhost:3344/actuator/bus-refresh
+
+###
+
+POST http://localhost:3355/actuator/refresh
+
+<> 2020-09-19T124429.200.json
+
+###
+
+POST http://localhost:3344/actuator/bus-refresh
+
+###
+
+POST http://localhost:3344/actuator/bus-refresh
+
+###
+
+POST http://localhost:3344/actuator/bus-refresh
+
+###
+
 POST http://localhost:3355/actuator/refresh
 
 <> 2020-09-18T062235.200.json

@@ -17,14 +17,14 @@ spring:
           username: TzashiNorpu@gmail.com
           ####读取分支
 #          http://config3344.com:3344/master/config-dev.yml(默认使用label指定的分支)和这个http://config3344.com:3344/config-dev.yml都可以
-#          label: master
+      label: master
 
-#rabbitmq相关配置
-#rabbitmq:
-#    host: 101.200.210.117
-#    port: 20000
-#    username: guest
-#    password: guest
+  #rabbitmq相关配置
+  rabbitmq:
+    host: 101.200.210.117
+    port: 20000
+    username: guest
+    password: guest
 
 #服务注册到eureka地址
 eureka:
@@ -32,11 +32,13 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka
 
-##rabbitmq相关配置,暴露bus刷新配置的端点
-#management:
-#  endpoints: #暴露bus刷新配置的端点
-#    web:
-#      exposure:
-#        include: 'bus-refresh'
+  ##rabbitmq相关配置,暴露bus刷新配置的端点
+
+#
+management:
+  endpoints: #暴露bus刷新配置的端点
+    web:
+      exposure:
+        include: 'bus-refresh'
 
 
