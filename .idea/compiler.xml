@@ -7,26 +7,40 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="consumer-nacos-order83" />
+        <module name="stream-rabbitmq-provider8801" />
         <module name="provider-consul-payment8006" />
         <module name="config-client3355" />
         <module name="consumer-zk-order80" />
         <module name="consumer-openfeign-order80" />
-        <module name="config-client3366" />
+        <module name="provider-nacos-payment9004" />
+        <module name="provider-nacos-payment9003" />
         <module name="consumer-eureka-order80" />
-        <module name="eureka-server7002" />
+        <module name="provider-nacos-payment9001" />
         <module name="eureka-server7001" />
         <module name="provider-hystrix-payment8008" />
         <module name="consumer-hystrix-dashboard9001" />
+        <module name="nacos-config-client3377" />
+        <module name="provider-eureka-payment8001" />
+        <module name="stream-rabbitmq-consumer8802" />
         <module name="consumer-openfeign-hystrix-order80" />
+        <module name="config-center3344" />
         <module name="gateway-9527" />
         <module name="commons-api" />
         <module name="provider-eureka-payment8002" />
-        <module name="provider-eureka-payment8001" />
+        <module name="config-client3366" />
+        <module name="consumer-nacos-order84" />
+        <module name="eureka-server7002" />
         <module name="consumer-consul-order80" />
+        <module name="stream-rabbitmq-consumer8803" />
         <module name="provider-zk-payment8004" />
-        <module name="config-center3344" />
+        <module name="provider-nacos-payment9002" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="customer-consul-order80" target="1.8" />
+      <module name="customer-eureka-order80" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

@@ -20,3 +20,6 @@ docker run -d -p 8500:8500 -v /data/consul:/consul/data -e CONSUL_BIND_INTERFACE
 ```  
 docker run --name consul1 -d -p 8500:8500 consul agent -server -bootstrap-expect 1 -ui -bind=0.0.0.0 -client=0 .0.0.0
 
+docker run --name zipkin01 -d -p 29411:9411 openzipkin/zipkin
+- 先修改端口映射关系
+    - docker-compose -f example/standalone-derby.yaml up -d

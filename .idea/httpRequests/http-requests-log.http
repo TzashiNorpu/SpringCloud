@@ -1,3 +1,22 @@
+GET http://localhost:9001/actuator/threaddump
+Accept: text/plain;charset=UTF-8
+
+<> 2020-09-19T080113.200.txt
+
+###
+
+POST http://localhost:3344/actuator/bus-refresh/config-client:3355
+
+###
+
+POST http://localhost:3344/actuator/bus-refresh
+
+###
+
+POST http://localhost:3344/actuator/bus-refresh
+
+###
+
 POST http://localhost:3344/actuator/bus-refresh
 
 ###
