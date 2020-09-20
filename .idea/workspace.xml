@@ -23,8 +23,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dockerCMD.md" beforeDir="false" afterPath="$PROJECT_DIR$/dockerCMD.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-config-client3377/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-config-client3377/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-config-client3377/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-config-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -437,7 +435,8 @@
       <workItem from="1600506962982" duration="4380000" />
       <workItem from="1600517830526" duration="1210000" />
       <workItem from="1600586801673" duration="4895000" />
-      <workItem from="1600602963273" duration="1364000" />
+      <workItem from="1600602963273" duration="1491000" />
+      <workItem from="1600606487148" duration="5261000" />
     </task>
     <servers />
   </component>
