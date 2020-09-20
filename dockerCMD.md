@@ -23,3 +23,11 @@ docker run --name consul1 -d -p 8500:8500 consul agent -server -bootstrap-expect
 docker run --name zipkin01 -d -p 29411:9411 openzipkin/zipkin
 - 先修改端口映射关系
     - docker-compose -f example/standalone-derby.yaml up -d
+    - docker-compose -f example/standalone-derby.yaml stop
+
+
+docker run --name nginx01 -p 9977:80 -d nginx
+
+curl -L https://github.com/docker/compose/releases/download/1.23.2/docker-compose-`uname -s`-`uname -m` -o /usr/bin/docker-compose
+
+curl -L https://github.com/alibaba/nacos/releases/download/1.3.2/nacos-server-1.3.2.tar.gz -o /home/docker/nacos-server
