@@ -40,51 +40,27 @@ hostname -i
 
 scp root@101.200.210.117:/home/docker/nacos/conf/*.sql  .
 
-
-docker run -d \
--e MODE=cluster \
--e NACOS_APPLICATION_PORT=28848 \
--e NACOS_SERVERS=172.21.80.91:28848,172.21.80.91:28849,172.21.80.91:28850 \
--e SPRING_DATASOURCE_PLATFORM=mysql \
--e MYSQL_SERVICE_HOST=172.21.80.91 \
--e MYSQL_SERVICE_PORT=23307 \
--e MYSQL_SERVICE_USER=nacos \
--e MYSQL_SERVICE_PASSWORD=nacos \
--e MYSQL_SERVICE_DB_NAME=nacos_config \
--e NACOS_SERVER_IP=172.21.80.91 \
--p 28848:28848 \
---name nacos28848 \
-nacos/nacos-server:latest
- 
-docker run -d \
--e MODE=cluster \
--e NACOS_APPLICATION_PORT=28849 \
--e NACOS_SERVERS=172.21.80.91:28848,172.21.80.91:28849,172.21.80.91:28850 \
--e SPRING_DATASOURCE_PLATFORM=mysql \
--e MYSQL_SERVICE_HOST=172.21.80.91 \
--e MYSQL_SERVICE_PORT=23307 \
--e MYSQL_SERVICE_USER=nacos \
--e MYSQL_SERVICE_PASSWORD=nacos \
--e MYSQL_SERVICE_DB_NAME=nacos_config \
--e NACOS_SERVER_IP=172.21.80.91 \
--p 28849:28849 \
---name nacos28849 \
-nacos/nacos-server:latest
- 
-docker run -d \
--e MODE=cluster \
--e NACOS_APPLICATION_PORT=28850 \
--e NACOS_SERVERS=172.21.80.91:28848,172.21.80.91:28849,172.21.80.91:28850 \
--e SPRING_DATASOURCE_PLATFORM=mysql \
--e MYSQL_SERVICE_HOST=172.21.80.91 \
--e MYSQL_SERVICE_PORT=23307 \
--e MYSQL_SERVICE_USER=nacos \
--e MYSQL_SERVICE_PASSWORD=nacos \
--e MYSQL_SERVICE_DB_NAME=nacos_config \
--e NACOS_SERVER_IP=172.21.80.91 \
--p 28850:28850 \
---name nacos28850 \
-nacos/nacos-server:latest
+drop user 'nacos';
+CREATE USER 'nacos'@'%' IDENTIFIED BY 'nacos';
+select user, host from mysql.user; 
+grant all privileges on *.* to 'nacos'@'%' with grant option;
 
 
 docker run  -p 23306:23306 --name nacosMySql111 -e MYSQL_ROOT_PASSWORD=yanggumaji74520 -d  mysql
+
+
+docker-compose -f docker-compose.yml up -d
+
+
+docker run --name my-nginx -d -p 11111:80 nginx  -v /home/docker/nginx/nginx.conf nginx 
+
+curl -L https://github.com/nginx/nginx/releases/download/1.19.2/release-1.19.2.tar.gz -o /home/docker/nginxTar
+
+docker cp tmp-nginx-container:/etc/nginx/nginx.conf /home/docker/nginx.conf
+
+docker run --name my-custom-nginx-container -p 11111:80 -v /home/nginx/www:/usr/share/nginx/html -v /home/nginx/conf/nginx.conf:/etc/nginx/nginx.conf  -v /home/nginx/logs:/var/log/nginx -d nginx
+#-v /home/nginx/www:/usr/share/nginx/html：将我们自己创建的 www 目录挂载到容器的 /usr/share/nginx/html。                                                        
+# -v /home/nginx/conf/nginx.conf:/etc/nginx/nginx.conf：将我们自己创建的 nginx.conf 挂载到容器的 /etc/nginx/nginx.conf。
+#-v /home/nginx/logs:/var/log/nginx：将我们自己创建的 logs 挂载到容器的 /var/log/nginx。 
+
+mkdir -p /home/nginx/www /home/nginx/logs /home/nginx/conf
