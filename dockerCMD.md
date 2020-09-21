@@ -59,8 +59,10 @@ curl -L https://github.com/nginx/nginx/releases/download/1.19.2/release-1.19.2.t
 docker cp tmp-nginx-container:/etc/nginx/nginx.conf /home/docker/nginx.conf
 
 docker run --name my-custom-nginx-container -p 11111:80 -v /home/nginx/www:/usr/share/nginx/html -v /home/nginx/conf/nginx.conf:/etc/nginx/nginx.conf  -v /home/nginx/logs:/var/log/nginx -d nginx
+docker run --name my-custom-nginx-container -p 11111:80 -v /home/nginx/conf/nginx.conf:/etc/nginx/nginx.conf  -v /home/nginx/logs:/var/log/nginx -d nginx
 #-v /home/nginx/www:/usr/share/nginx/html：将我们自己创建的 www 目录挂载到容器的 /usr/share/nginx/html。                                                        
 # -v /home/nginx/conf/nginx.conf:/etc/nginx/nginx.conf：将我们自己创建的 nginx.conf 挂载到容器的 /etc/nginx/nginx.conf。
 #-v /home/nginx/logs:/var/log/nginx：将我们自己创建的 logs 挂载到容器的 /var/log/nginx。 
-
+/etc/hosts ipv6注释
+upstream 是公网ip
 mkdir -p /home/nginx/www /home/nginx/logs /home/nginx/conf
