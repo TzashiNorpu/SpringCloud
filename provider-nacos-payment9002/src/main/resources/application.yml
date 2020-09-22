@@ -7,7 +7,8 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 101.200.210.117:28848 #配置Nacos地址
+#        server-addr: 101.200.210.117:28848 #配置Nacos地址
+        server-addr: 101.200.210.117:11111 # nginx
 
 management:
   endpoints:

@@ -66,3 +66,6 @@ docker run --name my-custom-nginx-container -p 11111:80 -v /home/nginx/conf/ngin
 /etc/hosts ipv6注释
 upstream 是公网ip
 mkdir -p /home/nginx/www /home/nginx/logs /home/nginx/conf
+
+
+curl -L https://github.com/alibaba/Sentinel/releases/download/v1.8.0/sentinel-dashboard-1.8.0.jar -o /home/sentinel/sentineljar
