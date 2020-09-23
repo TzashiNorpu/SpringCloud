@@ -38,6 +38,9 @@
         <module>consumer-nacos-order84</module>
         <module>nacos-config-client3377</module>
         <module>sentinel-service8401</module>
+        <module>seata-account-service20003</module>
+        <module>seata-order-service20001</module>
+        <module>seata-storage-service20002</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

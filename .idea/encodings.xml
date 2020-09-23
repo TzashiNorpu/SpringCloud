@@ -51,6 +51,12 @@
     <file url="file://$PROJECT_DIR$/provider-nacos-payment9004/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-zk-payment8004/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-zk-payment8004/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-account-service20003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-account-service20003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-order-service20001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-order-service20001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-storage-service20002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-storage-service20002/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sentinel-service8401/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sentinel-service8401/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stream-rabbitmq-consumer8802/src/main/java" charset="UTF-8" />

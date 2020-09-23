@@ -69,3 +69,12 @@ mkdir -p /home/nginx/www /home/nginx/logs /home/nginx/conf
 
 
 curl -L https://github.com/alibaba/Sentinel/releases/download/v1.8.0/sentinel-dashboard-1.8.0.jar -o /home/sentinel/sentineljar
+
+
+
+
+
+
+
+
+seata 替换 file.conf 中的连接驱动

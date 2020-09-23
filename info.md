@@ -1,0 +1,1 @@
+- domain、entity 都是应用和数据库库表对应的实体 Java 类
