@@ -12,6 +12,7 @@ spring:
     nacos:
       discovery:
         server-addr: 101.200.210.117:11111
+
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
 #    driver-class-name: com.mysql.jdbc.Driver
