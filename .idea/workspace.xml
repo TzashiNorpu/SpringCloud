@@ -20,9 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14daef14-e15a-404b-b868-660edbe25b6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-account-service20003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-account-service20003/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.md" beforeDir="false" afterPath="$PROJECT_DIR$/info.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-account-service20003/seata-account-service20003.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/seata-account-service20003/src/main/resources/file.conf" beforeDir="false" afterPath="$PROJECT_DIR$/seata-account-service20003/src/main/resources/file.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-account-service20003/src/main/resources/registry.conf" beforeDir="false" afterPath="$PROJECT_DIR$/seata-account-service20003/src/main/resources/registry.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service20001/seata-order-service20001.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-storage-service20002/seata-storage-service20002.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-service8401/sentinel-service8401.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +68,6 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -163,6 +168,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tzashinorpu.gatway.GateWayMain9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-hystrix-dashboard9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tzashinorpu.hystrixdashboard.HystrixDashboardMain9001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -299,6 +311,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SeataStorageServiceMain20002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-storage-service20002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tzashinorpu.seata.SeataStorageServiceMain20002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SentinelMain8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="sentinel-service8401" />
       <extension name="coverage">
@@ -364,13 +383,15 @@
       <item itemvalue="Spring Boot.NacosPaymentMain9001" />
       <item itemvalue="Spring Boot.StreamMQConsumerMain8802" />
       <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
-      <item itemvalue="Spring Boot.NacosPaymentMain9002" />
-      <item itemvalue="Spring Boot.GateWayMain9527" />
-      <item itemvalue="Spring Boot.SentinelMain8401" />
       <item itemvalue="Spring Boot.OrderHystrixMain80" />
       <item itemvalue="Spring Boot.OrderConsulMain80" />
       <item itemvalue="Spring Boot.SeataOrderServiceMain20001" />
+      <item itemvalue="Spring Boot.NacosPaymentMain9002" />
+      <item itemvalue="Spring Boot.GateWayMain9527" />
+      <item itemvalue="Spring Boot.SentinelMain8401" />
       <item itemvalue="Spring Boot.SeataAccountServiceMain20003" />
+      <item itemvalue="Spring Boot.SeataStorageServiceMain20002" />
+      <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
     </list>
     <recent_temporary>
       <list>
@@ -381,49 +402,6 @@
         <item itemvalue="Spring Boot.GateWayMain9527" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-        <serviceView>
-          <option name="contentProportion" value="0.1545514" />
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-          <option name="isSelected" value="true" />
-          <option name="viewType" value="group" />
-          <option name="roots">
-            <list>
-              <ServiceState>
-                <option name="path">
-                  <list>
-                    <option value="Run Dashboard" />
-                    <option value="SpringBootApplicationConfigurationType" />
-                  </list>
-                </option>
-                <option name="contributor" value="com.intellij.execution.dashboard.RunDashboardServiceViewContributor" />
-              </ServiceState>
-            </list>
-          </option>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
@@ -484,13 +462,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -524,75 +501,87 @@
     </state>
     <state x="1946" y="207" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1600.900@1366.0.1600.900" timestamp="1600846587112" />
     <state x="496" y="201" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1600348802754" />
-    <state width="1092" height="485" key="GridCell.Tab.0.bottom" timestamp="1600862088308">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="824" key="GridCell.Tab.0.bottom" timestamp="1600873079035">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1092" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.900@0.0.1366.728" timestamp="1600766195471" />
     <state width="1290" height="658" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.900@1366.0.1600.900" timestamp="1600855231751" />
     <state width="1092" height="485" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600862088308" />
     <state width="907" height="433" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1600353043394" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
-    <state width="1092" height="485" key="GridCell.Tab.0.center" timestamp="1600862088307">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="824" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1600873079035" />
+    <state width="1493" height="824" key="GridCell.Tab.0.center" timestamp="1600873079034">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1092" height="182" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.900@0.0.1366.728" timestamp="1600766195471" />
     <state width="1290" height="658" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.900@1366.0.1600.900" timestamp="1600855231750" />
     <state width="1092" height="485" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600862088307" />
     <state width="907" height="433" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1600353043394" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
-    <state width="1092" height="485" key="GridCell.Tab.0.left" timestamp="1600862088307">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="824" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1600873079034" />
+    <state width="1493" height="824" key="GridCell.Tab.0.left" timestamp="1600873079034">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1092" height="182" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.900@0.0.1366.728" timestamp="1600766195471" />
     <state width="1290" height="658" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.900@1366.0.1600.900" timestamp="1600855231750" />
     <state width="1092" height="485" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600862088307" />
     <state width="907" height="433" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1600353043393" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
-    <state width="1092" height="485" key="GridCell.Tab.0.right" timestamp="1600862088308">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="824" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1600873079034" />
+    <state width="1493" height="824" key="GridCell.Tab.0.right" timestamp="1600873079035">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1092" height="182" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.900@0.0.1366.728" timestamp="1600766195471" />
     <state width="1290" height="658" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.900@1366.0.1600.900" timestamp="1600855231751" />
     <state width="1092" height="485" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600862088308" />
     <state width="907" height="433" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1600353043394" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
-    <state width="1092" height="485" key="GridCell.Tab.1.bottom" timestamp="1600862088309">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="824" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1600873079035" />
+    <state width="1493" height="824" key="GridCell.Tab.1.bottom" timestamp="1600873079035">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1092" height="182" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1600.900@0.0.1366.728" timestamp="1600766195472" />
     <state width="1290" height="658" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1600.900@1366.0.1600.900" timestamp="1600855231752" />
     <state width="1092" height="485" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600862088309" />
     <state width="907" height="433" key="GridCell.Tab.1.bottom/0.0.1368.872@0.0.1368.872" timestamp="1600353043395" />
     <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
-    <state width="1092" height="485" key="GridCell.Tab.1.center" timestamp="1600862088308">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="824" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1600873079035" />
+    <state width="1493" height="824" key="GridCell.Tab.1.center" timestamp="1600873079035">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1092" height="182" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1600.900@0.0.1366.728" timestamp="1600766195471" />
     <state width="1290" height="658" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1600.900@1366.0.1600.900" timestamp="1600855231751" />
     <state width="1092" height="485" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600862088308" />
     <state width="907" height="433" key="GridCell.Tab.1.center/0.0.1368.872@0.0.1368.872" timestamp="1600353043395" />
     <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
-    <state width="1092" height="485" key="GridCell.Tab.1.left" timestamp="1600862088308">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="824" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1600873079035" />
+    <state width="1493" height="824" key="GridCell.Tab.1.left" timestamp="1600873079035">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1092" height="182" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1600.900@0.0.1366.728" timestamp="1600766195471" />
     <state width="1290" height="658" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1600.900@1366.0.1600.900" timestamp="1600855231751" />
     <state width="1092" height="485" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600862088308" />
     <state width="907" height="433" key="GridCell.Tab.1.left/0.0.1368.872@0.0.1368.872" timestamp="1600353043394" />
     <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
-    <state width="1092" height="485" key="GridCell.Tab.1.right" timestamp="1600862088308">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="824" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1600873079035" />
+    <state width="1493" height="824" key="GridCell.Tab.1.right" timestamp="1600873079035">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1092" height="182" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1600.900@0.0.1366.728" timestamp="1600766195472" />
     <state width="1290" height="658" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1600.900@1366.0.1600.900" timestamp="1600855231752" />
     <state width="1092" height="485" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600862088308" />
     <state width="907" height="433" key="GridCell.Tab.1.right/0.0.1368.872@0.0.1368.872" timestamp="1600353043395" />
     <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599405393545" />
+    <state width="1493" height="824" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1600873079035" />
     <state x="1669" y="53" key="SettingsEditor" timestamp="1600831769072">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
     <state x="1669" y="53" key="SettingsEditor/0.0.1366.728/1366.0.1600.900@1366.0.1600.900" timestamp="1600831769072" />
     <state x="259" y="22" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1600351368810" />
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1600871967605">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1600871967605" />
     <state width="590" height="477" key="SwitcherDM" timestamp="1600853094435">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
@@ -613,12 +602,13 @@
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
     <state x="1648" y="108" key="new project wizard/0.0.1366.728/1366.0.1600.900@1366.0.1600.900" timestamp="1600846574258" />
-    <state x="444" y="159" width="670" height="476" key="search.everywhere.popup" timestamp="1600862070553">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="624" y="227" width="942" height="680" key="search.everywhere.popup" timestamp="1600871967601">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1885" y="195" width="672" height="587" key="search.everywhere.popup/0.0.1366.728/1366.0.1600.900@1366.0.1600.900" timestamp="1600331751975" />
     <state x="444" y="159" width="670" height="476" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600862070553" />
     <state x="445" y="190" width="670" height="569" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1600348635155" />
     <state x="-1297" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.9.1920.1040@-1920.9.1920.1040" timestamp="1599404948103" />
+    <state x="624" y="227" width="942" height="680" key="search.everywhere.popup/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1600871967601" />
   </component>
 </project>

@@ -1,1 +1,2 @@
 - domain、entity 都是应用和数据库库表对应的实体 Java 类
+- nohup  sh seata-server.sh -p 8091 -h 101.200.210.117 -m file  >log.out 2>1 &
