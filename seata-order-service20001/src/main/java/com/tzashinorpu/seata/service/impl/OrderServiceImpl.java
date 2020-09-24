@@ -25,9 +25,10 @@ public class OrderServiceImpl implements OrderService {
     /**
      * 创建订单->调用库存服务扣减库存->调用账户服务扣减账户余额->修改订单状态
      * 简单说：下订单->扣库存->减余额->改状态
+     * multi_tx_test:自定义名字，不重复即可
      */
     @Override
-//    @GlobalTransactional(name = "fsp-create-order", rollbackFor = Exception.class)
+    @GlobalTransactional(name = "multi_tx_test", rollbackFor = Exception.class)
     public void create(Order order) {
         log.info("----->开始新建订单");
         //1 新建订单
