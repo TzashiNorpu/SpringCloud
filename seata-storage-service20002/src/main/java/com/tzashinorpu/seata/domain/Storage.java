@@ -25,5 +25,5 @@ public class Storage {
     /**
      * 剩余库存
      */
-    private Integer residue;
+    private Integer reside;
 }

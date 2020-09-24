@@ -7,22 +7,17 @@ spring:
   cloud:
     alibaba:
       seata:
-#        tx-service-group: default
         tx-service-group: my_test_tx_group
     nacos:
       discovery:
         server-addr: 101.200.210.117:11111
-
+        ip: 101.200.210.117
+        port: 11111
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-#    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://101.200.210.117:23306/seata_account
     username: seata
     password: seata
-
-feign:
-  hystrix:
-    enabled: false
 
 logging:
   level:
@@ -32,4 +27,6 @@ logging:
 mybatis:
   mapperLocations: classpath:mapper/*.xml
 
-
+#feign:
+#  hystrix:
+#    enabled: false

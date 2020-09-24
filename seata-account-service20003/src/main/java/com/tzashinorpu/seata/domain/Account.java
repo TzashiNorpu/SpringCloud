@@ -31,5 +31,5 @@ public class Account {
     /**
      * 剩余额度
      */
-    private BigDecimal residue;
+    private BigDecimal reside;
 }

@@ -9,14 +9,14 @@
         <result column="product_id" property="productId" jdbcType="BIGINT"/>
         <result column="total" property="total" jdbcType="INTEGER"/>
         <result column="used" property="used" jdbcType="INTEGER"/>
-        <result column="residue" property="residue" jdbcType="INTEGER"/>
+        <result column="reside" property="reside" jdbcType="INTEGER"/>
     </resultMap>
 
     <update id="decrease">
         UPDATE
             t_storage
         SET
-            used = used + #{count},residue = residue - #{count}
+            used = used + #{count},reside = reside - #{count}
         WHERE
             product_id = #{productId}
     </update>

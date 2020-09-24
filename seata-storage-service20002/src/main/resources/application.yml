@@ -7,16 +7,17 @@ spring:
   cloud:
     alibaba:
       seata:
-        tx-service-group: fsp_tx_group
+        tx-service-group: my_test_tx_group
     nacos:
       discovery:
         server-addr: 101.200.210.117:11111
+#        ip: 101.200.210.117
+#        port: 11111
   datasource:
-    driver-class-name: org.gjt.mm.mysql.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://101.200.210.117:23306/seata_storage
     username: seata
     password: seata
-
 logging:
   level:
     io:
